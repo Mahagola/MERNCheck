@@ -1,0 +1,17 @@
+GET http://localhost:3000/tasks
+
+###
+POST http://localhost:3000/tasks/new
+Content-Type: application/json
+
+{
+    "text" : "Build a 4 paged website"
+}
+
+###
+
+DELETE http://localhost:3000/tasks/delete/661bde14c424588bc886afe5
+
+###
+
+PUT http://localhost:3000/tasks/complete/661bde14c424588bc886afe5
