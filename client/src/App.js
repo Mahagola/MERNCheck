@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-const api_base = 'http://localhost:3000';
+const api_base = 'https://merncheck.onrender.com';
 
 function App() {
 	const [todos, setTodos] = useState([]);
